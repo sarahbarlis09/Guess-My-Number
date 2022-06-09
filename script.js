@@ -51,5 +51,5 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   document.querySelector('.number').style.width = '15rem';
   document.querySelector('.check').disabled = false;
-  document.querySelector('.check').reset = true;
+  document.querySelector('.guess').value = '';
 });
