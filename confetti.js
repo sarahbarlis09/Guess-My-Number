@@ -147,5 +147,3 @@ let removeConfetti; //call to stop the confetti animation and remove all confett
     }
   }
 })();
-
-document.querySelector('.again').addEventListener('click', stopConfettiInner());
