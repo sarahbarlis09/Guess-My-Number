@@ -54,4 +54,5 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.check').disabled = false;
   document.querySelector('.guess').value = '';
   stopConfetti();
+  score = 15;
 });
