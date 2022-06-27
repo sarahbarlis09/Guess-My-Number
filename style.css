@@ -125,6 +125,12 @@ h1 {
   position: absolute;
 }
 
+footer {
+  text-align: center;
+  margin: auto;
+  font-size: 1.5em;
+}
+
 @media (max-width: 599px) {
   .btn {
     font-size: 1.5rem;
@@ -158,5 +164,9 @@ h1 {
     font-size: 3rem;
     padding: 2rem;
     width: 15rem;
+  }
+
+  footer {
+    font-size: 0.5em;
   }
 }
