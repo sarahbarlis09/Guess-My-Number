@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +19,12 @@ body {
 }
 
 /* LAYOUT */
+
 header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
 }
-
 main {
   height: 65vh;
   color: #eee;
@@ -125,4 +123,40 @@ h1 {
 #confetti-canvas {
   top: 0;
   position: absolute;
+}
+
+@media (max-width: 599px) {
+  .btn {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  .between {
+    font-size: 1.2rem;
+    top: 3rem;
+  }
+
+  .number {
+    font-size: 4rem;
+    width: 15rem;
+    padding: 2rem 0rem;
+  }
+
+  .left {
+    margin: auto;
+  }
+
+  .right {
+    width: 45rem;
+    font-size: 1.2rem;
+  }
+
+  .guess {
+    font-size: 3rem;
+    padding: 2rem;
+    width: 15rem;
+  }
 }
